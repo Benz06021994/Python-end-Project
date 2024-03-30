@@ -5,7 +5,7 @@ This repository is created as Python end project including dataset and informati
 
 
 This program is designed to perform data analysis and visualisation on an employee dataset.
-The program starts by importing the necessary libraries: Pandas for data manipulation and matplotlib.pyplot and seaborn for the data visualisation.
+The program starts by importing the necessary libraries: Numpy and Pandas for data manipulation and matplotlib.pyplot and seaborn for the data visualisation.
 The program performs the following tasks:
 
 # Distribution of employees across teams: 
