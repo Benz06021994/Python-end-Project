@@ -3,24 +3,24 @@ This repository is created as Python end project including dataset and informati
 
 [Employee- Dataset](https://docs.google.com/spreadsheets/d/1VP9BE_eI2yl6uUHSm4mGiiwjRdoqCqnkcIjsv5Q2ex4/edit?usp=share_link)
 
-
-This program is designed to perform data analysis and visualisation on an employee dataset.
-The program starts by importing the necessary libraries: Numpy and Pandas for data manipulation and matplotlib.pyplot and seaborn for the data visualisation.
+# Overview
+This program is designed to perform data analysis and visualization on an employee dataset
+The program starts by importing the necessary libraries: Numpy and pandas for data manipulation and matplotlib.pyplot and seaborn for data visualization.
 The program performs the following tasks:
+Distribution of employees across teams: The employee distribution across teams is determined by calculating the headcount in each team and expressing it as a percentage of the total number of employees. The outcomes are then shown in the console, and a bar chart is generated to visualize the distribution.
+Segregation by position: The program categorizes employees based on their roles within the company . It then presents the employee count for each position and creates a pie chart to illustrate the distribution.
+Predominant age group: The program analyses employee age groups by categorizing them into ranges (such as 20-30, 30-40, 40-50, etc.). It then highlights the most common age group and generates a histogram to visualize the distribution.
+Salary expenditure: This process involves analysing salary data to determine which team and position contribute the most to the overall salary expenses. By creating bar charts, we can visually compare the financial impact of different teams and positions within the organization. Such insights are valuable for decision-making and resource allocation.
+Age-salary correlation: The program explores the connection between an employee’s age and their salary by generating a scatterplot using the seaborn library. This scatterplot visually represents how age relates to an employee’s corresponding salary. During the analysis, the program utilizes data manipulation and visualization techniques from pandas, matplotlib, and seaborn. The resulting visualizations are presented using the matplotlib.pyplot library, enhancing our comprehension and interpretation of the data.
 
-# Distribution of employees across teams: 
-It calculates the number of employees in each team and corresponding percentage split relative to the total number of employees. The results are displayed in the console, and a bar chart is plotted to visualise the distribution.
+# Explanation of the chart visualizations for each question:
 
-# Segregation by position: 
-The program segregates the employees based on their position within the company, It displays the count of employees for each position and visualises the distribution using a pie chart. 
+1.	Distribution of employees across teams and percentage split: The bar chart visualizes the distribution of employees across different teams. X axis represents the teams, Y axis represents to the number of employees in that team. This visualization gives the employee count distributed to each team.
+2.	Segregate employees based on positions: The visualization does not utilize a bar chart; instead, it employs a pie chart to depict the distribution of employees across various positions within the company. Each segment of the pie corresponds to a position, and its size reflects the number of employees in that role. This visualization provides insights into the relative representation of different positions within the company
+3.	Identify the predominant age group: The visualization uses a histogram, which graphically represents the distribution of a continuous variable (in this case, age). On the x-axis, we have age groups, and the y-axis shows the count or frequency of employees in each age group. This visualization allows us to pinpoint the age group with the highest employee concentration, which we consider the predominant age group.
+4.	Team and position with highest salary expenditure: 
+a. Salary expenditure by team: The bar chart illustrates the overall salary expenditure for each team. Each bar represents a specific team, and its height corresponds to the total sum of salaries for employees within that team. This visualization allows us to identify the team with the highest salary expenditure, providing valuable insights for budgeting and resource allocation.
+b. Salary expenditure by position: The bar chart illustrates the overall salary expenditure for each position within the company. Each bar represents a specific position, and its height corresponds to the total sum of salaries for employees in that role. This visualization allows us to identify the positions with the highest salary expenditure, providing valuable insights into the relative importance or demand for specific roles within the organization.
+5.	Correlation between age and salary: The scatterplot visualization depicts the relationship between two continuous variables. Specifically, the x-axis represents employee age, and the y-axis represents their corresponding salaries. Each data point on the scatterplot represents an individual employee, with their age and salary values plotted. By examining the distribution of data points, the scatterplot helps us understand whether there is a correlation between age and salary. A positive correlation would imply that higher salaries are associated with older employees, while a negative correlation would suggest that higher salaries are linked to younger employees
+The program offers valuable insights into the employee dataset by examining team distribution, positions, age groups, salary expenditure, and the relationship between age and salary. The findings are conveyed through both tables and visual graphs, enhancing understanding and interpretation
 
-# Predominant age group: 
-The program identifies the predominant age group among the employees by grouping them into age ranges (eg. 20-30,30-40,40-50....etc), The predominant age group is displayed and histogram is plotted to visualise the age distribution.
-
-# Salary Expenditure: 
-The program determines the team and the position with the highest salary expenditure by grouping and summing the salaries for each team and position.
-
-# Age – Salary correlation: 
-The program investigates the correlation between age and salary by creating a scatterplot using the seaborn library. The scatterplot visualises the relationship between an employees age their corresponding salaries. Throughout the analysis, the program makes use of various data manipulation and visualisation techniques provided by the pandas, matplotlib and seaborn libraries. Visualisations are displayed using the matplotlib.pyplot library, allowing for a better understanding and interpretation of the data
-
-Overall, the program provides insights into the dataset analysing various aspects such as team distribution, positions, age group, salary expenditure and the correlation between age and salary. The results are presented through both tabular and graphical formats for easier comprehension. 
